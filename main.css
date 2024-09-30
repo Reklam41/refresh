@@ -17,13 +17,14 @@ main header {
   align-items: center;
 }
 main section {
-  background-color: green;
+  /*background-color: green;*/
   flex-grow: 1;
   display: grid;
   grid-template-columns: 70% 30%;
 
   article {
-    background-color: red;
+    /*background-color: red;*/
+    padding: 0.8rem;
   }
 
   aside {
@@ -32,7 +33,7 @@ main section {
   }
 
   aside div {
-    background-color: blue;
+    /*background-color: blue;*/
     border-bottom: 0.1rem solid whitesmoke;
     flex-grow: 1;
   }
