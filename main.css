@@ -21,6 +21,26 @@ main header {
   padding: 1rem 0;
   background-color: #fff;
 }
+
+header nav {
+  display: flex;
+  flex-direction: column-reverse;
+
+  a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  a img {
+    width: 1rem;
+  }
+
+  div.social {
+    align-self: flex-end;
+  }
+}
+
 main section {
   /*background-color: green;*/
   flex-grow: 1;
