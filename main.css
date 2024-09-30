@@ -19,6 +19,18 @@ main header {
 main section {
   background-color: green;
   flex-grow: 1;
+
+  article {
+    background-color: red;
+  }
+
+  aside div {
+    background-color: blue;
+    border-bottom: 0.1rem solid whitesmoke;
+  }
+  aside div:last-child {
+    border-bottom: none;
+  }
 }
 main footer {
   margin: 0;
