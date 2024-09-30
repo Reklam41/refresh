@@ -7,3 +7,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
 }
+main header {
+  background-color: blue;
+}
+main section {
+  background-color: green;
+}
+main footer {
+  background-color: red;
+}
