@@ -19,6 +19,8 @@ main header {
 main section {
   background-color: green;
   flex-grow: 1;
+  display: grid;
+  grid-template-columns: 70% 30%;
 
   article {
     background-color: red;
@@ -27,6 +29,7 @@ main section {
   aside div {
     background-color: blue;
     border-bottom: 0.1rem solid whitesmoke;
+    flex-grow: 1;
   }
   aside div:last-child {
     border-bottom: none;
