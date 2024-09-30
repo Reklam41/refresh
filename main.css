@@ -6,19 +6,19 @@ body {
 }
 
 main {
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
 
 main header {
-  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 main section {
   background-color: green;
   flex-grow: 1;
 }
 main footer {
-  background-color: red;
 }
