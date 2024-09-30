@@ -21,4 +21,5 @@ main section {
   flex-grow: 1;
 }
 main footer {
+  margin: 0;
 }
