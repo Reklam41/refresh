@@ -18,6 +18,8 @@ main header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 0;
+  background-color: #fff;
 }
 main section {
   /*background-color: green;*/
@@ -46,5 +48,6 @@ main section {
 }
 main footer {
   font-size: 0.8rem;
-  padding: 0.8rem;
+  padding: 1rem 0;
+  background-color: #fff;
 }
