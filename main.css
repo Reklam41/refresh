@@ -26,6 +26,11 @@ main section {
     background-color: red;
   }
 
+  aside {
+    display: flex;
+    flex-direction: column;
+  }
+
   aside div {
     background-color: blue;
     border-bottom: 0.1rem solid whitesmoke;
@@ -36,5 +41,5 @@ main section {
   }
 }
 main footer {
-  margin: 0;
+  font-size: 0.8rem;
 }
