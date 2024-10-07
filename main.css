@@ -65,7 +65,7 @@ main section {
 
   aside div {
     /*background-color: blue;*/
-    border-bottom: 0.1rem solid rgb(194, 41, 41);
+    border-bottom: 0.4rem solid white;
     flex-grow: 1;
     place-items: center;
     display: grid;
