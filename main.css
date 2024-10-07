@@ -73,24 +73,28 @@ main section {
   aside div {
     /*background-color: blue;*/
     border-bottom: 0.4rem solid white;
+    padding: 1rem 0;
     flex-grow: 1;
     place-items: center;
     display: grid;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+    background-size: cover;
+    filter: saturate(0);
+    background-position: center;
+    &:hover {
+      filter: saturate(1);
+    }
 
     &:first-child {
       background-image: url("https://picsum.photos/seed/one/600/600");
-      background-size: cover;
     }
     &:nth-child(2) {
       background-image: url("https://picsum.photos/seed/ten/600/600");
-      background-size: cover;
     }
     &:nth-child(3) {
       background-image: url("https://picsum.photos/seed/three/600/600");
-      background-size: cover;
     }
     aside div:last-child {
       border-bottom: none;
